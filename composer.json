@@ -1,0 +1,23 @@
+{
+    "name": "administradores1/php-mvc-puro",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "eneassena",
+            "email": "desenvolvedoreneas2000@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "league/plates": "^3.4",
+        "coffeecode/router": "1.0.*",
+        "coffeecode/datalayer": "1.1.*"
+    }
+}
