@@ -1,10 +1,9 @@
-<body>
-    <p>
-        Este projeto é um modelo padrão de desenvolvimento de sitema web com o objetivo de aumentar a produtividade do desenvolvimento do solftware o modelo pode ser utilizado para criar qual tipo de sitemas web e de forma personalizavel. 
-    </p>
-
-</body>
-    <span">Tecnologias Utilizadas em Desenvolvimento:</span>
+<p>
+    Este projeto é um modelo padrão de desenvolvimento de sitema web com o objetivo de aumentar a 
+    produtividade do desenvolvimento do solftware o modelo pode ser utilizado para criar qual tipo 
+    de sitemas web e de forma personalizavel. 
+</p>
+<span">Tecnologias Utilizadas em Desenvolvimento:</span>
 <ul> 
     <li ><a targer="_blank" href="https://www.mysql.com">MySql</a></li>
     <li><a targer="_blank" href="https://php.net">PHP</a></li>
@@ -28,6 +27,8 @@
     </li>
 </ul>
 <p>
-    Um arquivo .htaccess deve ser criado e carregado na raiz do projeto para que o servidor possa fazer validações e o gerenciamento de rotas que necessita dessa configuração.    </p>
-<span>caso não tenha o conteúdo do arquivo `.htaccess` acesse o link `https://packagist.org/packages/coffeecode/router` la você encontrará um exemplo que poderá usar sem problemas.</span>
+    Um arquivo .htaccess deve ser criado e carregado na raiz do projeto para que o servidor possa fazer 
+    validações e o gerenciamento de rotas que necessita dessa configuração.    </p>
+<span>caso não tenha o conteúdo do arquivo .htaccess acesse o link https://packagist.org/packages/coffeecode/router
+    la você encontrará um exemplo que poderá usar sem problemas.</span>
 
