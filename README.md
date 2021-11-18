@@ -3,6 +3,12 @@
     produtividade do desenvolvimento do solftware o modelo pode ser utilizado para criar qual tipo 
     de sitemas web e de forma personalizavel. 
 </p>
+
+## para clonar o projeto use o seguinte comando no git bash/terminal
+```git
+git clone https://github.com/eneassena/modelo-padrao-projetos-wb.git
+```
+
 <span">Tecnologias Utilizadas em Desenvolvimento:</span>
 <ul> 
     <li ><a targer="_blank" href="https://www.mysql.com">MySql</a></li>
@@ -31,4 +37,3 @@
     validações e o gerenciamento de rotas que necessita dessa configuração.    </p>
 <span>caso não tenha o conteúdo do arquivo .htaccess acesse o link https://packagist.org/packages/coffeecode/router
     la você encontrará um exemplo que poderá usar sem problemas.</span>
-
