@@ -1,48 +1,4 @@
 
-<style>
-    * {
-        padding: 0;
-        margin: 0;
-    }
-    ul {
-        border-top: 5px solid rgba(0,0,0,0.2);
-        margin-top: 10px;
-        list-style-type: none;
-    }
-    a { 
-        color: grey;
-        font-weight: 700;
-        text-transform: none;
-    }
-    li {
-        margin-top: 5px;
-    }
-    a:hover {
-        text-decoration: underline;
-        font-weight: 500;
-        color: green;
-    }
-
-    .recursos{
-        display: inline-block;
-        margin-top: 30px;
-        color:rgba(200,212,225,0.9);
-    }
-
-    .recursos:hover {
-        text-shadow: 5px 3px 15px rgba(255, 255,255,.5);
-    }
-
-    .texto {
-        margin-top: 50px;
-        color: orange;
-        font-weight: 800;
-        font-size: 12pt;
-
-    }
-   
-</style>
-
 <body>
     <p>
         Este projeto é um modelo padrão de desenvolvimento de sitema web com o objetivo de aumentar a produtividade do desenvolvimento do solftware o modelo pode ser utilizado para criar qual tipo de sitemas web e de forma personalizavel. 
