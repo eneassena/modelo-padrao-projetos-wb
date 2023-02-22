@@ -9,7 +9,7 @@
 git clone https://github.com/eneassena/modelo-padrao-projetos-wb.git
 ```
 
-<span">Tecnologias Utilizadas em Desenvolvimento:</span>
+<span>Tecnologias Utilizadas em Desenvolvimento:</span>
 <ul> 
     <li ><a targer="_blank" href="https://www.mysql.com">MySql</a></li>
     <li><a targer="_blank" href="https://php.net">PHP</a></li>
