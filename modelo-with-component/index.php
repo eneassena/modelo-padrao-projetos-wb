@@ -17,4 +17,5 @@ $app->dispatch();
 
 if ($app->error()) {
     var_dump($app->error());
+    $app->redirect("/error/{$app->error()}");
 }
