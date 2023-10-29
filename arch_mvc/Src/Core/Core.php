@@ -15,6 +15,7 @@ class Core {
             $url = $route;
         }
 
+        // home/index/46564
         if(!empty($url)) { // possui informação após dominio: www.mysite.com/noticia
             $urlParams = explode("/",$url);
             $controller = $urlParams[0]."Controller"; // noticia
@@ -42,8 +43,8 @@ class Core {
             $controller = "errorController";
             $metodo = "error";
         }
-        
       
+        // instancia um controller
         $c = new $controller;        
       
         call_user_func_array(array($c, $metodo), $paramentros);

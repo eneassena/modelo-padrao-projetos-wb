@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Src\\": "Src/"
+        },
+        "files": [
+            "Src/Config.php"
+        ]
+    },
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^2",
+        "symfony/dotenv": "^6.1",
+        "laminas/laminas-diactoros": "^3.2",
+        "league/plates": "3.*",
+        "coffeecode/datalayer": "1.1.*"
+    }
+}
