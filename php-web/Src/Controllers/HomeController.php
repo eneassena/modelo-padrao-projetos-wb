@@ -1,12 +1,12 @@
-<?php 
+<?php
 
 namespace Src\Controllers;
 
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
-use Src\Models\User;
 
-class HomeController extends Controller {
+class HomeController extends Controller
+{
     // protected $views = null;
 
     public function __construct()
@@ -14,7 +14,8 @@ class HomeController extends Controller {
         parent::__construct();
     }
 
-    public function homePage(Request $request, Response $response, $args) {
+    public function homePage(Request $request, Response $response, $args)
+    {
         $pageContent = $this->views->render('home');
 
         $response->getBody()->write($pageContent);
@@ -22,7 +23,8 @@ class HomeController extends Controller {
         return $response;
     }
 
-    public function aboutPage(Request $request, Response $response, $args) {
+    public function aboutPage(Request $request, Response $response, $args)
+    {
         $pageContent = $this->views->render('about');
 
         $response->getBody()->write($pageContent);
@@ -30,7 +32,8 @@ class HomeController extends Controller {
         return $response;
     }
 
-    public function verOrderPage(Request $request, Response $response, $args) {
+    public function verOrderPage(Request $request, Response $response, $args)
+    {
         $pageContent = $this->views->render('verOrderPage');
 
         $response->getBody()->write($pageContent);
@@ -39,18 +42,19 @@ class HomeController extends Controller {
     }
 
 
-    public function getUsers(Request $request, Response $response, $args) {
+    public function getUsers(Request $request, Response $response, $args)
+    {
         $data =  [];
 
-        $responseDb = (new User)->find()->fetch(true);
+        $responseDb = [];
         foreach ($responseDb as $key => $value) {
             array_push($data, $value->data());
         }
-       
+
         $payload = json_encode($data, JSON_PRETTY_PRINT);
-        
+
         $response->getBody()->write($payload);
-        
+
         return $response->withHeader('Content-Type', 'application/json');
     }
 }

@@ -7,6 +7,9 @@
             "Src/Config.php"
         ]
     },
+    "scripts": {
+        "start": "php -S 127.0.0.1:8080 -t public" 
+    },
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "^1.6",

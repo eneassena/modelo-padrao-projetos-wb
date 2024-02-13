@@ -1,2 +1,5 @@
-<?php 
+<?php
 
+class User
+{
+}

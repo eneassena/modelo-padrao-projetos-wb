@@ -30,7 +30,7 @@ define("DATA_LAYER_CONFIG", [
 ]); 
 
 // www.meusite.com.br
-define("ROOT", "http://localhost/projeto_pastelaria");
+define("ROOT", "http://127.0.0.1:8000");
 
 
 /**

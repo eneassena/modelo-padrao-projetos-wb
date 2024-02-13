@@ -15,4 +15,4 @@ RewriteEngine On
 #RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /modelo-padrao-projetos-wb/arch_mvc/index.php?route=$1
+RewriteRule ^(.*)$ /modelo-padrao-projetos-web/arch_mvc/index.php?route=$1

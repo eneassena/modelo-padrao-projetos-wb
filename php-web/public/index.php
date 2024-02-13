@@ -5,11 +5,13 @@ use Slim\Factory\AppFactory;
 use Src\Controllers\HomeController;
 
 $app = AppFactory::create();
-$app->setBasePath('/php-web');
+ 
 
+ 
 $app->get('/', [HomeController::class, 'homePage']);
 $app->get('/about', [HomeController::class, 'aboutPage']);
 $app->get('/ver-orders', [HomeController::class, 'verOrderPage']);
+$app->get("", function(){});
 
 
 
@@ -18,6 +20,8 @@ $app->addBodyParsingMiddleware();
 
 $app->addRoutingMiddleware();
 $app->addErrorMiddleware(true, true, true);
+
+// $app->setBasePath('/modelo-padrao-projetos-web');
 
 $app->options('/{routes:.+}', function ($request, $response, $args) {
     return $response;
