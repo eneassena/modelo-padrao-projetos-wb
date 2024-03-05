@@ -1,4 +1,3 @@
 vendor
-/public/.htaccess
-.htaccess
-composer.lock
+public/.htaccess
+arch_mvc.env
